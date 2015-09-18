@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <Button 
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:background="#ffff"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="保存"/>
+    <Button 
+        android:id="@+id/bt_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:layout_toLeftOf="@id/save_button"
+        android:layout_alignTop="@id/save_button"
+        android:text="清除"/>
+
+</RelativeLayout>
